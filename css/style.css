@@ -85,10 +85,12 @@ nav ul li a {
     margin-left: 62px;
     margin-right: 75px;
 }
-aside{
+.profilepicturesection{
     width: 20%;
+    display:flex;
 }
 .profilepicture {
+    display:flex;
     width: 188px;
     height: 202px;
     flex-shrink: 0;
@@ -224,21 +226,39 @@ section {
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-
+.rightfooter {
+    display:inline;
+    justify-content: center;
+}
 .email {
     color: var(--F7B318, #F7B318);
-font-family: Jacques Francois;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 1.4px;
-text-transform: capitalize;
-margin-left: 840px;
-
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: capitalize;
 }
 .LinkedIn {
     margin-left: 6px;
+}
+@media (max-width:600px) {
+    body {
+        background-color:red;
+        display:flex;
+        flex-wrap: flex;
+    }
+    .profilepicture {
+        display
+    }
+    p {
+        font-size: 0.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+
 }
 
 
