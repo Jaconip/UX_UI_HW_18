@@ -235,9 +235,58 @@ section {
     line-height: normal;
     letter-spacing: 1.4px;
     text-transform: capitalize;    
-    
 }
 
+@media (max-width:1200px) {
+    .pagecontents {
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:900px) {
+    .pagecontents {
+        display:flex;
+        flex-direction: column;
+    }
+    .firstparagraph h2 {
+        width:500px;
+    }
+    .boxcontents {
+        display:flex;
+    }
+    .leftcontainer {
+        margin-top: 150px;
+        width: 40%;
+        height: 350px;
+    }
+    .whatilove {
+        font-size:1rem;
+    }
+    .whatilovelist {
+        font-size: 0.75rem;
+        margin:20px;
+    }
+    .rightcontainer {
+        margin-top: 150px;
+        width: 40%;
+        height: 350px;
+    }
+    .thetools {
+        font-size:1rem;
+        margin-left:20px;
+    }
+    .thetoolslist {
+        font-size: 0.75rem;
+        margin-left:20px;
+    }
+.footerquote {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  .email {
+    font-size: 1rem;
+  }
+}
 @media (max-width:600px) {
     nav ul li{
         display:flex;
@@ -252,8 +301,8 @@ section {
         flex-direction: column;
     }
     .leftcontainer {
-        margin-top: 300px;
-        width: 40%;
+        margin-top: 450px;
+        width: 90%;
         height: 350px;
     }
     .whatilove {
@@ -265,119 +314,42 @@ section {
     }
     .rightcontainer {
         margin-top: 5%;
-        width: 40%;
+        margin-left: 30px;
+        width: 92%;
         height: 350px;
     }
     .thetools {
         font-size:1rem;
-        margin-left:20px;
+        margin-left:35px;
     }
     .thetoolslist {
         font-size: 0.75rem;
         margin-left:20px;
     }
-.footerquote {
-    font-size: 1rem;
-    padding-top: 10px;
-  }
-  .email {
-    font-size: 1rem;
-  }
+    .quote p {
+    font-size:14px;
+    }
+    .pagefooter {
+        display: flex;
+        justify-content: center;
+        height:10%;
+    }
+   .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    .email{
+    font-size:14px;
+    margin-right: 0px;
+    }
+    .LinkedIn {
+    width:14px;
+    height:14px;
+    margin-left: 0px;
+    padding: 0px;
+    }
 }
-@media (max-width:900px) {
-    nav ul li{
-        display:flex;
-        flex-direction: column;
-    }
-    .pagecontents {
-        display:flex;
-        flex-direction: column;
-    }
-    .boxcontents {
-        display:flex;
-        flex-direction: column;
-    }
-    .leftcontainer {
-        margin-top: 300px;
-        width: 40%;
-        height: 350px;
-    }
-    .whatilove {
-        font-size:1rem;
-    }
-    .whatilovelist {
-        font-size: 0.75rem;
-        margin:20px;
-    }
-    .rightcontainer {
-        margin-top: 5%;
-        width: 40%;
-        height: 350px;
-    }
-    .thetools {
-        font-size:1rem;
-        margin-left:20px;
-    }
-    .thetoolslist {
-        font-size: 0.75rem;
-        margin-left:20px;
-    }
-.footerquote {
-    font-size: 1rem;
-    padding-top: 10px;
-  }
-  .email {
-    font-size: 1rem;
-  }
-}
-@media (max-width:1200px) {
-    nav ul li{
-        display:flex;
-        flex-direction: column;
-    }
-    .pagecontents {
-        display:flex;
-        flex-direction: column;
-    }
-    .boxcontents {
-        display:flex;
-        flex-direction: column;
-    }
-    .leftcontainer {
-        margin-top: 400px;
-        width: 40%;
-        height: 350px;
-    }
-    .whatilove {
-        font-size:1rem;
-    }
-    .whatilovelist {
-        font-size: 0.75rem;
-        margin:20px;
-    }
-    .rightcontainer {
-        margin-top: 5%;
-        width: 40%;
-        height: 350px;
-    }
-    .thetools {
-        font-size:1rem;
-        margin-left:20px;
-    }
-    .thetoolslist {
-        font-size: 0.75rem;
-        margin-left:20px;
-    }
-.footerquote {
-    font-size: 1rem;
-    padding-top: 10px;
-  }
-  .email {
-    font-size: 1rem;
-  }
-}
-
-
 *,
   *::before,
   *::after {
